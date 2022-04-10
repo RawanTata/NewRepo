@@ -16,5 +16,26 @@ namespace Clinical
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Patient pat = new Patient();
+            pat.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 Cus1 = new Form1();
+            Cus1.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Medicines Cus1 = new Medicines();
+            Cus1.Show();
+            this.Hide();
+        }
     }
 }

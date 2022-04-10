@@ -49,6 +49,7 @@ namespace Clinical
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -66,6 +67,7 @@ namespace Clinical
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button7);
@@ -137,6 +139,7 @@ namespace Clinical
             this.button3.TabIndex = 43;
             this.button3.Text = "Doctors";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -146,6 +149,7 @@ namespace Clinical
             this.button4.TabIndex = 42;
             this.button4.Text = "Medicines";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -155,6 +159,7 @@ namespace Clinical
             this.button5.TabIndex = 39;
             this.button5.Text = "Patients";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -274,6 +279,17 @@ namespace Clinical
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(1042, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 29);
+            this.label4.TabIndex = 52;
+            this.label4.Text = "X";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -284,6 +300,7 @@ namespace Clinical
             this.Name = "Home";
             this.Text = "Home";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -319,5 +336,6 @@ namespace Clinical
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button buttonr1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
     }
 }

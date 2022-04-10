@@ -153,6 +153,26 @@ namespace Clinical.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__5_ {
+            get {
+                object obj = ResourceManager.GetObject("images (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__6_ {
+            get {
+                object obj = ResourceManager.GetObject("images (6)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap laboratory_icon_26 {
             get {
                 object obj = ResourceManager.GetObject("laboratory-icon-26", resourceCulture);
@@ -166,6 +186,16 @@ namespace Clinical.Properties {
         internal static System.Drawing.Bitmap Screenshot_2022_04_09_233325 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2022-04-09 233325", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_04_10_at_1_50_35_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-04-10 at 1.50.35 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

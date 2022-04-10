@@ -31,6 +31,14 @@ namespace Clinical
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -49,17 +57,11 @@ namespace Clinical
             this.CusID = new System.Windows.Forms.TextBox();
             this.DoctorId = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.gunaAnimateWindow1 = new Guna.UI.WinForms.GunaAnimateWindow(this.components);
             this.gunaImageReplaceColor1 = new Guna.UI.WinForms.GunaImageReplaceColor(this.components);
             this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
@@ -70,6 +72,8 @@ namespace Clinical
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.gunaCirclePictureBox1);
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.textBox3);
@@ -101,6 +105,82 @@ namespace Clinical
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1138, 884);
             this.panel1.TabIndex = 3;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(225, 664);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(193, 22);
+            this.textBox4.TabIndex = 32;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(250, 716);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(663, 22);
+            this.textBox3.TabIndex = 31;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(214, 602);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(193, 22);
+            this.textBox2.TabIndex = 30;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Violet;
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(3, 650);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(173, 36);
+            this.button10.TabIndex = 29;
+            this.button10.Text = "Medical Alert";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Violet;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(3, 706);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(220, 36);
+            this.button4.TabIndex = 28;
+            this.button4.Text = "Past Medical History";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Violet;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(3, 588);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(173, 36);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "Blood Group";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(214, 541);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(193, 22);
+            this.textBox1.TabIndex = 26;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Violet;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(3, 519);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(198, 44);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Primary_Care_Doctor";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -286,82 +366,6 @@ namespace Clinical
             this.button3.Text = "Patient General Information";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Violet;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 519);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 44);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Primary_Care_Doctor";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(214, 541);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(193, 22);
-            this.textBox1.TabIndex = 26;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Violet;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 588);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 36);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "Blood Group";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Violet;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(3, 706);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(220, 36);
-            this.button4.TabIndex = 28;
-            this.button4.Text = "Past Medical History";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Violet;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(3, 650);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(173, 36);
-            this.button10.TabIndex = 29;
-            this.button10.Text = "Medical Alert";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(214, 602);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 22);
-            this.textBox2.TabIndex = 30;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(250, 716);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(663, 22);
-            this.textBox3.TabIndex = 31;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(225, 664);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 22);
-            this.textBox4.TabIndex = 32;
-            // 
             // gunaAnimateWindow1
             // 
             this.gunaAnimateWindow1.AnimationType = Guna.UI.WinForms.GunaAnimateWindow.AnimateWindowType.AW_CENTER;
@@ -386,11 +390,33 @@ namespace Clinical
             this.gunaCirclePictureBox1.TabStop = false;
             this.gunaCirclePictureBox1.UseTransfarantBackground = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(1076, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 29);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "X";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(1004, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 29);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "X";
+            // 
             // Patient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1942, 1102);
+            this.ClientSize = new System.Drawing.Size(1138, 884);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Patient";
@@ -435,5 +461,7 @@ namespace Clinical
         private Guna.UI.WinForms.GunaCirclePictureBox gunaCirclePictureBox1;
         private Guna.UI.WinForms.GunaAnimateWindow gunaAnimateWindow1;
         private Guna.UI.WinForms.GunaImageReplaceColor gunaImageReplaceColor1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
     }
 }
