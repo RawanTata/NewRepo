@@ -1,15 +1,15 @@
 ﻿
-namespace Clinical
+namespace WinFormsApp1
 {
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -24,297 +24,170 @@ namespace Clinical
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.CusSpec = new System.Windows.Forms.TextBox();
-            this.CusPhone = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.CusPass = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.CusAge = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.CusName = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.CusID = new System.Windows.Forms.TextBox();
-            this.DoctorId = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Gender = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // panel1
+            // label1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.button14);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.button13);
-            this.panel1.Controls.Add(this.button12);
-            this.panel1.Controls.Add(this.button11);
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.CusSpec);
-            this.panel1.Controls.Add(this.CusPhone);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.CusPass);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.CusAge);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.CusName);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.CusID);
-            this.panel1.Controls.Add(this.DoctorId);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(89, 28);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1138, 919);
-            this.panel1.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(302, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(129, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Patient Name";
             // 
-            // button14
+            // Gender
             // 
-            this.button14.BackColor = System.Drawing.Color.White;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button14.Location = new System.Drawing.Point(719, 88);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(120, 34);
-            this.button14.TabIndex = 23;
-            this.button14.Text = "Refresh";
-            this.button14.UseVisualStyleBackColor = false;
+            this.Gender.FormattingEnabled = true;
+            this.Gender.Items.AddRange(new object[] {
+            "Male ",
+            "Female"});
+            this.Gender.Location = new System.Drawing.Point(526, 97);
+            this.Gender.Name = "Gender";
+            this.Gender.Size = new System.Drawing.Size(151, 33);
+            this.Gender.TabIndex = 1;
+            this.Gender.Text = "Gender";
+            this.Gender.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // comboBox2
+            // textBox1
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(462, 88);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(209, 31);
-            this.comboBox2.TabIndex = 22;
-            this.comboBox2.Text = "Select Department";
+            this.textBox1.Location = new System.Drawing.Point(306, 100);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(125, 30);
+            this.textBox1.TabIndex = 2;
             // 
-            // button13
+            // dateTimePicker1
             // 
-            this.button13.BackColor = System.Drawing.Color.Violet;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button13.Location = new System.Drawing.Point(118, 627);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(111, 54);
-            this.button13.TabIndex = 20;
-            this.button13.Text = "EDIT";
-            this.button13.UseVisualStyleBackColor = false;
+            this.dateTimePicker1.Location = new System.Drawing.Point(306, 175);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(125, 30);
+            this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.Value = new System.DateTime(2022, 5, 5, 0, 0, 0, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // button12
+            // label2
             // 
-            this.button12.BackColor = System.Drawing.Color.Violet;
-            this.button12.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button12.Location = new System.Drawing.Point(235, 627);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(118, 54);
-            this.button12.TabIndex = 19;
-            this.button12.Text = "DELETE";
-            this.button12.UseVisualStyleBackColor = false;
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.Location = new System.Drawing.Point(306, 147);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "DOB";
             // 
-            // button11
+            // textBox2
             // 
-            this.button11.BackColor = System.Drawing.Color.Violet;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button11.Location = new System.Drawing.Point(3, 627);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(109, 54);
-            this.button11.TabIndex = 4;
-            this.button11.Text = "ADD";
-            this.button11.UseVisualStyleBackColor = false;
+            this.textBox2.Location = new System.Drawing.Point(526, 185);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(151, 70);
+            this.textBox2.TabIndex = 6;
             // 
-            // button9
+            // label3
             // 
-            this.button9.BackColor = System.Drawing.Color.Violet;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(3, 467);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(173, 36);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "Doctor Specification";
-            this.button9.UseVisualStyleBackColor = false;
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label3.Location = new System.Drawing.Point(526, 147);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Address";
             // 
-            // CusSpec
+            // textBox3
             // 
-            this.CusSpec.Location = new System.Drawing.Point(189, 481);
-            this.CusSpec.Name = "CusSpec";
-            this.CusSpec.Size = new System.Drawing.Size(193, 22);
-            this.CusSpec.TabIndex = 15;
+            this.textBox3.Location = new System.Drawing.Point(522, 301);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(125, 30);
+            this.textBox3.TabIndex = 8;
             // 
-            // CusPhone
+            // label4
             // 
-            this.CusPhone.Location = new System.Drawing.Point(189, 416);
-            this.CusPhone.Name = "CusPhone";
-            this.CusPhone.Size = new System.Drawing.Size(193, 22);
-            this.CusPhone.TabIndex = 13;
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label4.Location = new System.Drawing.Point(526, 273);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 25);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Phone";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // button8
+            // textBox4
             // 
-            this.button8.BackColor = System.Drawing.Color.Violet;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(3, 402);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(173, 36);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "DoctorPhone";
-            this.button8.UseVisualStyleBackColor = false;
+            this.textBox4.Location = new System.Drawing.Point(302, 258);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(151, 73);
+            this.textBox4.TabIndex = 10;
             // 
-            // CusPass
+            // label5
             // 
-            this.CusPass.Location = new System.Drawing.Point(189, 337);
-            this.CusPass.Name = "CusPass";
-            this.CusPass.Size = new System.Drawing.Size(193, 22);
-            this.CusPass.TabIndex = 11;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Violet;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(-2, 327);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(178, 32);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "DoctorPassord";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // CusAge
-            // 
-            this.CusAge.Location = new System.Drawing.Point(189, 263);
-            this.CusAge.Name = "CusAge";
-            this.CusAge.Size = new System.Drawing.Size(193, 22);
-            this.CusAge.TabIndex = 9;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Violet;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(3, 253);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(173, 36);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "DoctorAge";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // CusName
-            // 
-            this.CusName.Location = new System.Drawing.Point(189, 191);
-            this.CusName.Name = "CusName";
-            this.CusName.Size = new System.Drawing.Size(193, 22);
-            this.CusName.TabIndex = 7;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Violet;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(3, 177);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(173, 36);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "DoctorName";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // CusID
-            // 
-            this.CusID.Location = new System.Drawing.Point(189, 108);
-            this.CusID.Name = "CusID";
-            this.CusID.Size = new System.Drawing.Size(193, 22);
-            this.CusID.TabIndex = 5;
-            // 
-            // DoctorId
-            // 
-            this.DoctorId.BackColor = System.Drawing.Color.Violet;
-            this.DoctorId.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DoctorId.ForeColor = System.Drawing.Color.White;
-            this.DoctorId.Location = new System.Drawing.Point(3, 98);
-            this.DoctorId.Name = "DoctorId";
-            this.DoctorId.Size = new System.Drawing.Size(173, 36);
-            this.DoctorId.TabIndex = 4;
-            this.DoctorId.Text = "Doctor_ID";
-            this.DoctorId.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Violet;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(462, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(308, 48);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Manage Doctor";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(462, 138);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(451, 508);
-            this.dataGridView1.TabIndex = 24;
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label5.Location = new System.Drawing.Point(302, 230);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Allgeries";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1316, 975);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1200, 562);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Gender);
+            this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Patients";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox CusSpec;
-        private System.Windows.Forms.TextBox CusPhone;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox CusPass;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox CusAge;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox CusName;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox CusID;
-        private System.Windows.Forms.Button DoctorId;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox Gender;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
